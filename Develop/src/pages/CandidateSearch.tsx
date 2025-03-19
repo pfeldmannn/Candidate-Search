@@ -30,7 +30,7 @@ const CandidateSearch = () => {
   }, []);
 
   const getCandidate = async (data: any[]) => {
-    const candidate = await searchGithubUser(data[currentIndex].login); //check this
+    const candidate = await searchGithubUser(data[currentIndex].login); 
     setCurrentCandidate(candidate);
     setCurrentIndex(currentIndex + 1);
   };
