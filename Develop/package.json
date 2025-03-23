@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "render-build": "npm install && npm run build",
-    "render-start": "npm run dev",
+    "render-start": "set PORT=1000 && npm run dev",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
