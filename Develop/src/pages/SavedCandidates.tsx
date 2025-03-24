@@ -33,7 +33,7 @@ const SavedCandidates = () => {
                 <td>
                   <img src={candidate.avatar_url} alt="avatar" />
                 </td>
-                <td>{candidate.username || "NA"}</td>
+                <td>{candidate.login || "NA"}</td>
                 <td>{candidate.location || "NA"}</td>
                 <td>{candidate.email || "NA"}</td>
                 <td>{candidate.company || "NA"}</td>
