@@ -45,7 +45,7 @@ const CandidateSearch = () => {
  
   return (
     <div>
-      <h1>CandidateSearch</h1>
+      <h1>Candidate Search</h1>
       <article>
         <img src={currentCandidate.avatar_url} alt="avatar" />
         <h2>

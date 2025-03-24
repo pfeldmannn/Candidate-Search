@@ -11,5 +11,8 @@ I completed the front-end code for a job candidate search application using Type
 - Tutoring Sessions for code review
 - Github co-pilot for debugging
 
+### Deployed Site
+https://candidate-search-2-l4kb.onrender.com
+
 ### Contact
 Email: paigeafeldmann@gmail.com
