@@ -49,13 +49,13 @@ const CandidateSearch = () => {
       <article>
         <img src={currentCandidate.avatar_url} alt="avatar" />
         <h2>
-          User {currentCandidate.name} {currentCandidate.login}
+          User: {currentCandidate.name} {currentCandidate.login}
         </h2>
-        <p>Location {currentCandidate.location || "NA"}</p>
-        <p>Email {currentCandidate.email || "NA"} </p>
+        <p>Location: {currentCandidate.location || "NA"}</p>
+        <p>Email: {currentCandidate.email || "NA"} </p>
         <a href="html_url">Github Profile: {currentCandidate.html_url}</a>
-        <p>Company {currentCandidate.company || "NA"}</p>
-        <p>Bio {currentCandidate.bio || "NA"}</p>
+        <p>Company: {currentCandidate.company || "NA"}</p>
+        <p>Bio: {currentCandidate.bio || "NA"}</p>
       </article>
       <button onClick={saveCandidate}>Save Candidate</button>
       <button
